@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
     <h1>Maggie Nguyen</h1>
     <p>Hello, I am Maggie Thuy Nguyen. I am a 20 year old who was born on Wednesday, 
