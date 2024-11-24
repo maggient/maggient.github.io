@@ -9,5 +9,5 @@ and play instruments. I find interest in interactive digital art.</p>
  <script src ="https://cdn.jsdelivr.net/npm/p5@1.11.1/lib/p5.min.js"></script>
     <h2>P5 Art Graphic</h2>
     <div id="p5-canvas-container"></div>
-    <script src="sketches/sketch.js"></script>
+    <script src="sketch.js"></script>
 </html>
