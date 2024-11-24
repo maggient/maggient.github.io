@@ -19,19 +19,18 @@
         createCanvas(1000, 1000); //1000x1000 square canvas
         background(225); //white background
       }
-
+      
       function draw() {
-        background(225); //white background
-
-        const r = color(255, 0, 0); // red
-        const o = color(255, 165, 0); // orange
-        const y = color(255, 255, 0); // yellow
-        const g = color(0, 255, 0); // green
-        const b = color(0, 0, 255); // blue
-        const p = color(128, 0, 128); // purple
+        background(225); //sets background to white 
+        const r = color(255, 0, 0); //red using RGB 
+        const o = color(255, 165, 0); //orange 
+        const y = color(255, 255, 0); //yellow
+        const g = color(0, 255, 0); //green 
+        const b = color(0, 0, 255); //blue 
+        const p = color(128, 0, 128); //purple 
 
         fill(255);
-        rect(0, 0, 1000, 1000); // Large white rectangle
+        rect(0, 0, 1000, 1000); //side to side, up down, width, length 
         fill(r);
         rect(25, 25, 950, 950);
         fill(o);
@@ -72,7 +71,7 @@
         rect(475, 475, 50, 50);
         fill(o);
         rect(488, 488, 25, 25);
-      }
+      } //end of Rainbow Squares on top of eachother design 
     </script>
   </body>
 </html>
