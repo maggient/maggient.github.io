@@ -16,7 +16,7 @@
       //Maggie Nguyen - Rainbow Squares 
       
       function setup() {
-        createCanvas(500, 500); //500x500 square canvas
+        createCanvas(1000, 1000); //1000x1000 square canvas
         background(225); //white background
       }
 
