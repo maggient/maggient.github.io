@@ -2,7 +2,6 @@
 <html>
   <head>
     <title>Maggie's GitHub.io</title>
-    <!-- Link to the p5.js library -->
     <script src="https://cdn.jsdelivr.net/npm/p5@1.11.1/lib/p5.min.js"></script>
   </head>
   <body>
@@ -15,17 +14,14 @@
     <h2>P5 Art Graphic</h2>
     <script>
       //Maggie Nguyen - Rainbow Squares 
-
-      //function setup() {
-        //createCanvas(1000, 1000); // (width, height)
-      //}
+      
       function setup() {
-        createCanvas(1000, 1000); // Create a 1000x1000 canvas
-        background(225); // Set background to white
+        createCanvas(500, 500); //500x500 square canvas
+        background(225); //white background
       }
 
       function draw() {
-        background(225); // Sets background to white
+        background(225); //white background
 
         const r = color(255, 0, 0); // red
         const o = color(255, 165, 0); // orange
