@@ -6,7 +6,7 @@
     was born and raised in Dallas, Texas. In my free time, I like to create digital art 
 and play instruments. I find interest in interactive digital art.</p>
     
- <script src = "https://cdn.jsdelivr.net/npm/p5@1.11.1/lib/p5.min.js"></script>
+ <script src ="https://cdn.jsdelivr.net/npm/p5@1.11.1/lib/p5.min.js"></script>
     <h2>P5 Art Graphic</h2>
     <div id="p5-canvas-container"></div>
     <script src="sketches/sketch.js"></script>
