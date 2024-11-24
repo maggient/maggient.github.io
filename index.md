@@ -14,10 +14,14 @@
     
     <h2>P5 Art Graphic</h2>
     <script>
-      // Maggie Nguyen - Rainbow Squares 
+      //Maggie Nguyen - Rainbow Squares 
 
+      //function setup() {
+        //createCanvas(1000, 1000); // (width, height)
+      //}
       function setup() {
-        createCanvas(1000, 1000); // (width, height)
+        createCanvas(1000, 1000); // Create a 1000x1000 canvas
+        background(225); // Set background to white
       }
 
       function draw() {
