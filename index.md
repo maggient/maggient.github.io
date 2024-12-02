@@ -74,6 +74,11 @@
   rect(475, 475, 50, 50);
   fill(o);
   rect(488, 488, 25, 25);
+
+  fill(255); //text color white 
+  textSize(115); //font size
+  textAlign(CENTER, CENTER); //aligns text
+  text("MAGGIENGUYEN", width / 2, height / 2); //MAGGIE NGUYEN text centered 
 } //end of Rainbow Squares on top of eachother design 
 
     </script>
