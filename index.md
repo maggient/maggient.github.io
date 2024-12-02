@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
   <head>
     <title>Maggie's GitHub.io</title>
