@@ -82,6 +82,5 @@
 } //end of Rainbow Squares on top of eachother design 
 
     </script>
-    <p>More to come...</p>
   </body>
 </html>
