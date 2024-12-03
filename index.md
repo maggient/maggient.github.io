@@ -7,8 +7,6 @@
   <body>
     <h1>Maggie Nguyen</h1>
     <p>Welcome to Maggie Nguyen's page. More to come soon...</p>
-    
-    <h2>P5 Art Graphic</h2>
     <script>
   //Maggie Nguyen - Rainbow Squares 
 function setup() {
