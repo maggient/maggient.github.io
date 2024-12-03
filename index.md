@@ -11,14 +11,14 @@
     <h2>P5 Art Graphic</h2>
     <script>
   //Maggie Nguyen - Rainbow Squares 
-  
-  function setup() {
+function setup() {
   createCanvas(1000, 1000); //1000x1000 square canvas
   background(225); //white background
-  }
-      
-  function draw() {
+}
+
+function draw() {
   background(225); //sets background to white 
+
   const r = color(255, 0, 0); //red using RGB 
   const o = color(255, 165, 0); //orange 
   const y = color(255, 255, 0); //yellow
@@ -26,6 +26,7 @@
   const b = color(0, 0, 255); //blue 
   const p = color(128, 0, 128); //purple 
 
+  
   fill(255);
   rect(0, 0, 1000, 1000); //side to side, up down, width, length 
   fill(r); 
@@ -39,7 +40,6 @@
   fill(b);
   rect(125, 125, 750, 750);
   fill(p);
-  
   rect(150, 150, 700, 700);
   fill(r); 
   rect(175, 175, 650, 650);
@@ -52,7 +52,6 @@
   fill(b);
   rect(275, 275, 450, 450);
   fill(p);
-  
   rect(300, 300, 400, 400);
   fill(r); 
   rect(325, 325, 350, 350);
@@ -65,18 +64,23 @@
   fill(b);
   rect(425, 425, 150, 150);
   fill(p);
-  
   rect(450, 450, 100, 100);
   fill(r); 
   rect(475, 475, 50, 50);
   fill(o);
   rect(488, 488, 25, 25);
 
-  fill(255); //text color white 
+  if (frameCount % 2 === 0) {
+    fill(random(255), random(255), random(255)); //random colors
+  } else {
+    fill(255); //white text
+  }
+  
   textSize(115); //font size
   textAlign(CENTER, CENTER); //aligns text
-  text("MAGGIENGUYEN", width / 2, height / 2); //MAGGIE NGUYEN text centered 
-} //end of Rainbow Squares on top of eachother design 
+  text("MAGGIENGUYEN", width / 2, height / 2); //MAGGIE NGUYEN text centered
+} //end of Rainbow Squares
+
 
     </script>
   </body>
