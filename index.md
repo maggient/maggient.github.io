@@ -8,10 +8,13 @@
     <h1>Maggie Nguyen</h1>
     <p>Welcome to Maggie Nguyen's page. More to come soon...</p>
     <script>
-  //Maggie Nguyen - Rainbow Squares 
+//Maggie Nguyen - Rainbow Squares 
+let userInput = ""; //stores input 
+
 function setup() {
   createCanvas(1000, 1000); //1000x1000 square canvas
   background(225); //white background
+  userInput = prompt("Please enter your name:");
 }
 
 function draw() {
@@ -76,7 +79,12 @@ function draw() {
   
   textSize(115); //font size
   textAlign(CENTER, CENTER); //aligns text
-  text("MAGGIENGUYEN", width / 2, height / 2); //MAGGIE NGUYEN text centered
+  
+    if (userInput) {
+    text(userInput.toUpperCase(), width / 2, height / 2); //makes letters uppercase 
+  } else {
+    text("HELLO USER", width / 2, height / 2);
+  }
 } //end of Rainbow Squares
 
 
