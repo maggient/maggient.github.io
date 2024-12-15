@@ -6,7 +6,7 @@
   
   <body>
     <h1>Maggie Nguyen</h1>
-    <p>Welcome to Maggie Nguyen's page. More to come soon...</p>
+    <p>Welcome to Maggie Nguyen's page.</p>
     <script>
 //Maggie Nguyen - Rainbow Squares 
 let userInput = ""; //stores input 
