@@ -14,7 +14,7 @@ let userInput = ""; //stores input
 function setup() {
   createCanvas(1000, 1000); //1000x1000 square canvas
   background(225); //white background
-  userInput = prompt("Please enter your name:");
+  userInput = prompt("Hello, welcome to Maggie's Website. Please enter your name for website personalization:");
 }
 
 function draw() {
